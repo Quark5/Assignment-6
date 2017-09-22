@@ -17,7 +17,8 @@
     "should": "^7.1.1",
     "supertest": "^1.1.0"
   }
-  "scripts": {
-    "postinstall": "./node_modules/bower/bin/bower install"
-  }
+ "scripts": {
+"start": "node index.js",
+"postinstall": "bower install"
+}
 }
