@@ -9,7 +9,7 @@ var path = require('path'),
 
 module.exports.init = function() {
   //connect to database
-  mongoose.connect(config.db.uri);
+  mongoose.connect(mongodb://Quark5:tianbochen29@ds123371.mlab.com:23371/heroku_l1vtjp76);
 
   //initialize app
   var app = express();
